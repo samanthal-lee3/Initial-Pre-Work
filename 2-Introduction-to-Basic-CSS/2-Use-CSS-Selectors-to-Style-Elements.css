@@ -1,3 +1,4 @@
+/* in an html page, we can create a style tag to apply css to multple elements on the page */
 <style>
   h2 {color: blue;}
 </style>

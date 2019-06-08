@@ -5,7 +5,7 @@
 /* css adds style to elements to change how they appear on the page*/
 /* changing text color using the color property*/
 
-<h2 style ="color: red;">CatPhotoApp</h2>
+<h2 style ="color: red">CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
 

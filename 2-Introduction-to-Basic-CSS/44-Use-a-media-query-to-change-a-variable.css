@@ -1,5 +1,6 @@
 /* if your screen is smaller/larger than media query break point, you can change the value of the variable */
 /* this will help resize elements based on the screen size */
+/* this also gives the developer the power to change the color or other styles of elements based on the screen size */
 
 <style>
   :root {

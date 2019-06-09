@@ -1,0 +1,12 @@
+/* we can apply styles to the body tag that apply to the whole webpage just like we do any other element */
+
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1> Hello World </h1>

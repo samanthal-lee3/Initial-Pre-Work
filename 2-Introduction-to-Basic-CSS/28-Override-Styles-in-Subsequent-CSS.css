@@ -1,0 +1,16 @@
+/* class css style overrides body css style */
+/* if an object has multiple classes, and both classes have css applied to them, the second or last class declaration will take precedence over the first */
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text{
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>

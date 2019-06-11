@@ -1,0 +1,29 @@
+/* align-items moves elements in a flex box along the cross axis */
+/* cross axis is vertical for rows and horizontal for columns */
+/* the cross axis is perpendicular to the main axis */
+/* cross axis defines how elements move up and down within the container */
+/* baseline, stretch, center, flex-end, flex-start */
+<style>
+  #box-container {
+    background: gray;
+    display: flex;
+    height: 500px;
+    align-items: center;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 200px;
+    font-size: 24px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 200px;
+    font-size: 18px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"><p>Hello</p></div>
+  <div id="box-2"><p>Goodbye</p></div>
+</div>

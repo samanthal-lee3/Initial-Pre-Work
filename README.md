@@ -4,15 +4,17 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions in general terms/steps.
 
-put your answer here
+A hyperlink allows the user to visit a new webpage. When the user clicks a link, the browser gathers information about the page, preparing to complete a GET request that will bring the user to the new page. First, the server translates the link into an IP address that is used to find the specific location of that link on the web. The IP address is used to locate the computer/server where the website lives, and sends out a request to access that page. If the page is unavailable, the user will get an error message. If the page is available (meaning the server is working), then the webpage is sent to your server and loads for you to access in your browser.
+
+Source: https://www.homeandlearn.co.uk/WD/wds5p1.html
 
 ## From start to finish, how does data reach you to be rendered in the browser?
 
-put your answer here
+Data is stored on servers, and links are used to request access to that data. When a user clicks on a link, they are requesting data. As explained in the last question, the IP address is used to locate the website and server to see if the data is available. If the data is available, it is returned back to your server, and the GET request is completed. When the GET request is completed, the user can view and access the data from the initial server on their own server, interacting with the web application.
 
 ## What code is rendered in the browser?
 
-put your answer here
+Code written to define the look of the web application in rendered in the browser. This is the front end work of the application that allows the user to see and access the structure, design, and some functionality of the page. Examples of code rendered in the browser is HTML, CSS, and JavaScript. HTML sets the structure of the page, CSS defines the design, and JavaScript allows the user to make changes to the HTML on the page.
 
 ## What is the server-side code’s main function?
 

@@ -1,5 +1,5 @@
-// variables declared in js have an initial value of undeclared  //
-// mathematical operation on undefined variable returned NaN //
+// variables declared in js have an initial value of undeclared  
+// mathematical operation on undefined variable returned NaN
 // Initialize these three variables
 var a =5;
 var b=10;

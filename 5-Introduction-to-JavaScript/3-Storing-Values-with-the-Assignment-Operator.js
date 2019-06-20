@@ -1,5 +1,5 @@
-// assignments go from right to left //
-// assignments are made with the = operator //
+// assignments go from right to left 
+// assignments are made with the = operator
 
 // Setup
 var a;

@@ -1,5 +1,5 @@
-// variables and function names are case sensitive //
-// js best practice is to use camelCase for variableNames //
+// variables and function names are case sensitive 
+// js best practice is to use camelCase for variableNames
 
 // Declarations
 var studlyCapVar;

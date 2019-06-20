@@ -1,4 +1,4 @@
-// initialize a variable- set an initial variable in the same line it is declared //
+// initialize a variable- set an initial variable in the same line it is declared 
 
 // Example
 var ourVar = 19;

@@ -1,6 +1,6 @@
 // we can chain properties together using dot or bracket notation to get at nested objects
 
-// Setup
+// using notations you have to start at the most outer level of the object and move through each layer
 var myStorage = {
   "car": {
     "inside": {

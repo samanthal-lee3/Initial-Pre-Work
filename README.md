@@ -18,24 +18,26 @@ Code written to define the look of the web application in rendered in the browse
 
 ## What is the server-side code’s main function?
 
-put your answer here
+Server-side code = Back End. This code is the database functionality that allows a user to store, edit, or view data from a database. Examples of code that is written for the server-side include Ruby and Python. These languages build up code that organizes, stores, and retrieves data.
 
 ## What is the client-side code’s main function?
 
-put your answer here
+Client-side = Front End. This part of the code is what the user sees and can interact with. This code is pulled from the server and is made available on the client's own browser to interact with. For example, client-side code could look like a profile page or a sign-in page. In the code files, these views would be determined with html, css, and js. Actions that the user might take on the page would be functional because of the backend or server-side code written in the files, but the client cannot see that server-side code.
 
 ## What is runtime?
 
-put your answer here
+Runtime is the code/functions that are called while a program is running. Runtime includes the specific code that a developer writes to make their application work, like the database interactions using back-end languages. In addition, runtime includes the other functionality that the developer did not write, but that allows for their application to be accessed, like the communication between browsers and servers. As languages and code becomes more complex, they require a longer runtime, as there are more files and information to load for the app to function.
+
+Source: https://stackoverflow.com/questions/3900549/what-is-runtime
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
 
-put your answer here
+My understanding of this question is, in other words, how many users can interact with your application/store data in your database. Web applications can be created so that (n) number of clients can initialize the client-side code. This could look like (n) amount of users creating a login for your application, or (n) amount of users uploading a photo to the database.
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+In collaboration with the thought of the last question, I believe this answer is 1- for any given application, there is one instance of code that interacts with the database, where the (n) amount of client data is stored. While each new client creates a new instance of their data, it is all stored using the same instance of server-side code.
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+My understanding of this question is, how many connections can be made between the server and the application. Each time that a user accesses an application, they make a request to the server to access the database. The number of clients who request to access the application and are successfully able to connect is equal to the number of instances that the database is connected to the server.

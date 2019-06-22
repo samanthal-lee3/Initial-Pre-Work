@@ -1,4 +1,4 @@
-
+// let restricts variables from being overwritten
 
 let catName;
 let quote;
